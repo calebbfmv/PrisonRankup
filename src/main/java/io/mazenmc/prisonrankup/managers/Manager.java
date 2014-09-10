@@ -18,12 +18,15 @@
 
 package io.mazenmc.prisonrankup.managers;
 
-public class Manager {
+/**
+ * Gooby please. Learn to java 
+ *
+ */
+protected abstract class Manager {
 
     /**
      * Method used on disable to cleanup, only should be used by PrisonRankupPlugin on shutdown
      * @deprecated To avoid use by other plugins
      */
-    @Deprecated
-    public void cleanup() {}
+    protected abstract void cleanup();
 }
